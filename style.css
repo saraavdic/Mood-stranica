@@ -1,0 +1,90 @@
+body {
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    background-image: url(/media/background.jpg);
+    background-size: cover;
+}
+.main-content {
+    font-size: 20px;
+    max-width: 700px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+.main-content h1 {
+    background-color: lightpink;
+    border-radius:25px;
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+.main-content img {
+    border: 5px solid #000;
+    display: block; /* slika je u svojoj liniji */
+    margin: 0 auto; /* centrira sliku horizontalno */
+    max-width: 100%; /* uvjerava se da je slika pravilno skalirana */
+    height: auto; /* održava omjer stranica */
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button-row1 {
+    gap:50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.button-row2{
+    gap:10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#btn-happy{
+    font-family:'Pacifico', cursive; 
+    background-color: yellow;
+    border-radius: 25px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+#btn-sad{
+    font-family:'Pacifico', cursive; 
+    background-color:blue;
+    border-radius: 25px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+#btn-angry{
+    font-family:'Pacifico', cursive; 
+    background-color: red;
+    border-radius: 25px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+#btn-annoyed{
+    font-family:'Pacifico', cursive; 
+    background-color: green;
+    border-radius: 25px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+#btn-sick{
+    font-family:'Pacifico', cursive; 
+    background-color: gray;
+    border-radius: 25px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+#btn-sleepy{
+    font-family:'Pacifico', cursive; 
+    background-color: pink;
+    border-radius: 25px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
